@@ -1,7 +1,7 @@
 version: "2"
 services:
     courses-ms:
-        image: criscapunal/lab2:sa_course_ms
+        build: .
         ports:
             - "3000:3000"
         depends_on:
